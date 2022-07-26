@@ -36,7 +36,7 @@ const personalMovieDB = {
 function rememberMyFilms() {
     //1.
     for (let i = 0; i < 2; i++) {
-        const a = prompt('One of your last movies you saw?',''),
+        const a = prompt('One of your last movies you saw?','').trim(),
             b = prompt('How much do you rate it?','');
             
         if ( a !== null  &&  b !== null  && a !== ''  &&  b !=='' &&  a.length < 50)   {
@@ -49,7 +49,7 @@ function rememberMyFilms() {
     }  
 }
 
-// rememberMyFilms();
+rememberMyFilms();
 
 
 //создаем функцию  и оборачиваем нижнюю проверку
@@ -66,7 +66,7 @@ function detectPersonalLevel() {
     }
 }
 
-// detectPersonalLevel();
+detectPersonalLevel();
 
 
 //2.
