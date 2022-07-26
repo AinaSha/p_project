@@ -1,5 +1,7 @@
-"use strict";
+function showMyDB() {
+    if(personalMovieDB[private] === false){
+       return console.log(personalMovieDB);
+    }
+}
 
-const amountOfFilm = +prompt("How many films did you watch?");
-
-let numberOfFilms = 0;
+showMyDB();
